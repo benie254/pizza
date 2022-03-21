@@ -62,9 +62,19 @@ body {
 /* About division */
 #about {
   padding-bottom: 7%;
-  margin-left: 7%;
-  margin-right: 7%;
   padding-left: 10%;
   padding-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 /* end of About division */
+
+/* Pizza Orders division */
+.pizza-orders-division {
+  padding-bottom: 10%;
+}
+.pizza-orders-row {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+/* end of Pizza Orders division */
