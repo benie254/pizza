@@ -9,14 +9,17 @@ body {
 
 /* Section 1 */
 .container-fluid-intro {
-  background-image: url(file:///home/benie/Downloads/pizza-g78c1b1943_1920.jpg);
+  background-image: url(../img/backgrounds/bg1.jpg);
   color: white;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  padding-bottom: 50%;
   margin-bottom: 0;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1.5%;
+  padding-bottom: 50%;
 }
 
 /* Navbar division */
@@ -51,7 +54,7 @@ body {
 
 /* Section 2 */
 .section-2 {
-  background-image: url(file:///home/benie/Downloads/anime-6588363_1280.jpg);
+  background-image: url(../img/backgrounds/bg2.jpg);
   color: white;
   background-position: center center;
   background-size: cover;
@@ -66,6 +69,9 @@ body {
   padding-right: 10%;
   margin-left: 7%;
   margin-right: 7%;
+}
+#about h2 {
+  padding-bottom: 3.5%;
 }
 /* end of About division */
 
@@ -95,7 +101,7 @@ body {
 
 /* Contact division */
 .container-contact {
-  background-image: url(file:///home/benie/Downloads/pizza-4952509_1920.jpg);
+  background-image: url(../img/backgrounds/bg3.jpg);
   color: white;
   background-position: center;
   background-size: cover;
@@ -126,47 +132,6 @@ footer p {
 }
 /* end of Section 3 */
 
-/* Bootstrap's Carousel */
-.carousel-control {
-  color: white;
-  width: 15%;
-  opacity: .5;
-  hover-opacity: .9;
-  transition: opacity .15s ease;
-}
-.carousel-indicator {
-  width: 30px;
-  height: 3px;
-  hit-area-height: 10px;
-  spacer: 3px;
-  opacity: .5;
-  active-bg: white;
-  active-opacity: 1;
-  transition: opacity .6s ease;
-}
-.carousel-caption {
-  width: 70%;
-  color: white;
-  padding-y: 1.25rem;
-  spacer: 1.25rem;
-}
-.carousel-control-icon {
-  width: 2rem;
-}
-.carousel-control-prev-icon {
-  bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
-}
-.carousel-control-next-icon {
-  bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
-}
-.carousel {
-  transition-duration: .6s;
-  transition: transform
-  transition-duration: ease-in-out;
-  dark-indicator-active-bg: black;
-  dark-caption-color: black;
-  dark-control-icon-filter: invert(1) grayscale(100);
-}
 /* Carousel Local Changes */
 .carousel-inner {
   margin-left: 25%;
