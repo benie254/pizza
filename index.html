@@ -161,6 +161,74 @@
         <!-- end of row -->
         <!-- end of Pizza Orders subdivision -->
 
+        <!-- Print Orders subdivision starts below -->
+        <!-- with row and two columns -->
+        <div class="row print-orders">
+          <!-- first column starts below -->
+          <div class="col">
+            <div class="table">
+              <h2>Order Summary:</h2>
+              <div id="orders-table">
+                <table class="table pizza-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Order No.</th>
+                      <th scope="col">Flavor</th>
+                      <th scope="col">Size</th>
+                      <th scope="col">Topping</th>
+                      <th scope="col">Crust</th>
+                      <th scope="col">Total</th>
+                    </tr>
+                  </thead>
+                  <tbody id="pizza">
+                    <tr>
+                      <th scope="row">1</th>
+                      <td id="pizza-flavor"></td>
+                      <td id="pizza-size"></td>
+                      <td id="pizza-topping"></td>
+                      <td id="pizza-crust"></td>
+                      <td id="pizza-total"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="checkout-buttons">
+              <div class="text-center">
+                <button class="btn btn-info add-pizza body-font" type="submit">Add Pizza</button>
+                <div class="checkout-info">
+                  <h3>Prepare your wallet for <br> Ksh. <span></span> total.</h3>
+                  <p id="additional-info-p">We can deliver this order to your doorstep for an additional <strong>Ksh. 150</strong>.</p>
+                  <h4>Thank you for choosing us! Your order is en route to <span></span>.</h4>
+                  <h5>Thank you for choosing us! Grab your order at our joint soonest possible.</h5>
+                  <div class="location text-center">
+                    <input type="text" size="30" placeholder="Where do you live?" required />
+                    <br><br>
+                    <button class="btn btn-info complete body-font" type="submit">Complete</button>
+                  </div>
+                </div>
+                <button class="btn btn-info yes body-font" type="submit">Please Deliver</button>
+                <button class="btn btn-info no body-font" type="submit">No Need</button>
+              </div>
+              <br>
+              <div class="text-center">
+                <button class="btn btn-info check-out body-font" type="submit">Checkout</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of first column -->
+
+          <!-- second column starts below -->
+          <div class="col delivery-image">
+            <img src="file:///home/benie/Downloads/delivery-guy-g8227e8eee_640-modified.png" width="350" height="350" alt="">
+          </div>
+          <!-- end of second column -->
+        </div>
+        <!-- end of row -->
+        <!-- end of Print Orders subdivision -->
+      </div>
+      <!-- end of Pizza Orders division -->
+
 
 
   </body>
