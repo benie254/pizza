@@ -48,3 +48,14 @@ body {
   font-family: 'Courgette', cursive;
 }
 /* end of Welcome division */
+
+/* Section 2 */
+.section-2 {
+  background-image: url(file:///home/benie/Downloads/anime-6588363_1280.jpg);
+  color: white;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+}
