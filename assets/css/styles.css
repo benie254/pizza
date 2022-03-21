@@ -59,3 +59,12 @@ body {
   padding-top: 5%;
   padding-bottom: 2.5%;
 }
+/* About division */
+#about {
+  padding-bottom: 7%;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/* end of About division */
