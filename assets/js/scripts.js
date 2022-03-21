@@ -10,4 +10,14 @@ $(document).ready(function() {
   $(".checkout-info h4").hide();
   $(".delivery-image").hide();
 
-  
+  // Assign variables for pizza Specifications & selections
+  $('.btn.proceed').click(function() {
+    var pizzaFlavor = $(".flavor option:selected").val();
+    var sizeOfPizza = $(".size option:selected").val();
+    var toppingOfPizza = $(".topping option:selected").val();
+    var crustOfPizza = $(".crust option:selected").val();
+    var total = parseInt(sizeOfPizza) + parseInt(toppingOfPizza) + parseInt(crustOfPizza);
+    var order = 1;
+    var grandTotal = 0;
+
+    
