@@ -6,3 +6,15 @@ body {
 .body-font {
   font-family: 'Courgette', cursive;
 }
+
+/* Section 1 */
+.container-fluid-intro {
+  background-image: url(file:///home/benie/Downloads/pizza-g78c1b1943_1920.jpg);
+  color: white;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 50%;
+  margin-bottom: 0;
+}
