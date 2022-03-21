@@ -20,4 +20,10 @@ $(document).ready(function() {
     var order = 1;
     var grandTotal = 0;
 
-    
+    // Unhide the Orders Table and checkout buttons
+    // Hide the place-order button
+    $(".table").show();
+    $(".table h2").show();
+    $(".delivery-image").show();
+    $(".checkout-buttons").show();
+    $(".btn.proceed").hide();
