@@ -75,3 +75,20 @@ $(document).ready(function() {
 
       $(".checkout-info h3 span").html(grandTotal);
     });
+
+    // Add a click function for delivery
+    $(".btn.yes").click(function() {
+      $(".checkout-info-p").hide();
+      $(".btn.yes").hide();
+      $(".btn.no").hide();
+      $(".checkout-info h5").hide();
+      $(".checkout-info .location").show();
+      $(".checkout-info h3 span").html(grandTotal + 200);
+    });
+
+    $(".btn.no").click(function() {
+      $(".checkout-info-p").hide();
+      $(".btn.yes").hide();
+      $(".btn.no").hide();
+      $(".checkout-info h5").show();
+    });
