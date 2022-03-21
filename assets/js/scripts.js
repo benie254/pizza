@@ -27,3 +27,10 @@ $(document).ready(function() {
     $(".delivery-image").show();
     $(".checkout-buttons").show();
     $(".btn.proceed").hide();
+
+    // Print the selected Pizza specifications and responsive prices, including the totals
+    $("#pizza-flavor").html($(".flavor option:selected").text() + pizzaFlavor);
+    $("#pizza-size").html($(".size option:selected").text() + " - " + sizeOfPizza);
+    $("#pizza-topping").html($(".topping option:selected").text() + " - " + toppingOfPizza);
+    $("#pizza-crust").html($(".crust option:selected").text() + " - " + crustOfPizza);
+    $("#pizza-total").html(total);
