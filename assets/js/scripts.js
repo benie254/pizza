@@ -92,3 +92,15 @@ $(document).ready(function() {
       $(".btn.no").hide();
       $(".checkout-info h5").show();
     });
+
+    // Complete delivery setup
+    $(".btn.complete").click(function() {
+      var location = $(".checkout-info .location input").val();
+      $(".checkout-info h4").show();
+      $(".checkout-info .location").hide();
+      $(".checkout-info h4 span").html(location);
+    });
+
+  });
+
+});
