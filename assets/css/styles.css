@@ -111,3 +111,17 @@ body {
   text-align: left;
 }
 /* end of Contact division */
+
+/* Section 3 */
+/* Footer */
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
+footer p {
+  font-family: 'Roboto', sans-serif;;
+  margin-top: 0px;
+  border-top-width: 0px;
+  margin-bottom: 0px;
+}
+/* end of Section 3 */
