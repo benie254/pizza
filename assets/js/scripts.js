@@ -61,3 +61,17 @@ $(document).ready(function() {
 
       $("#pizza").append(newRow);
     });
+
+    // Hide some checkout buttons on clicking check-out; unhide checkout information
+    $(".btn.check-out").click(function() {
+      $(".btn.add-pizza").hide();
+      $(".btn.check-out").hide();
+      $(".checkout-info h5").hide();
+      $(".checkout-info").show();
+      $(".btn.yes").show();
+      $(".btn.no").show();
+      $(".checkout-info .location").hide();
+      grandTotal = grandTotal + total;
+
+      $(".checkout-info h3 span").html(grandTotal);
+    });
