@@ -55,7 +55,7 @@
       <!-- end of About division -->
 
       <!-- Pizza orders division -->
-      <!-- with columns and two rows -->
+      <!-- with a row and two columns -->
       <div class="pizza-orders-division">
         <!-- Pizza orders row starts below -->
         <!-- Pizza orders subdivision starts below -->
@@ -93,6 +93,74 @@
             </div>
           </div>
           <!-- end of first column -->
+
+          <!-- second column starts below -->
+          <div class="col">
+            <div class="container container-orders" id="pizza-orders">
+              <h2>Got Specifications?</h2>
+              <p class="body-font"><em>We've got you!</em></p>
+              <form class="pizza-orders-form">
+                <div class="input" id="new-pizza">
+                  <div class="input-group mb-3">
+                    <label class="input-group-text body-font" for="flavor">Flavor</label>
+                    <select class="form-select flavor" id="flavor" aria-label="flavor" required>
+                      <option selected value="0" selected="selected" disabled="disabled">Choose flavor...</option>
+                      <option value="">Hawaiian</option>
+                      <option value="">Regina</option>
+                      <option value="">Chicken</option>
+                      <option value="">Boerewors</option>
+                      <option value="">Meat Deluxe</option>
+                      <option value="">Cheese Burger</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div class="input-group mb-3">
+                    <select class="form-select size" id="size" required>
+                      <option selected value="0" selected="selected" disabled="disabled">Choose size...</option>
+                      <option value="500">Regular</option>
+                      <option value="750">Medium</option>
+                      <option value="1000">Large</option>
+                      <option value="1250">Mega</option>
+                    </select>
+                    <label class="input-group-text body-font" for="size">Size</label>
+                  </div>
+                  <br>
+                  <div class="input-group mb-3">
+                    <label class="input-group-text body-font" for="topping">Toppings</label>
+                    <select class="form-select topping" id="topping" required>
+                      <option selected value="0" selected="selected" disabled="disabled">Choose topping...</option>
+                      <option value="100">Pineapple</option>
+                      <option value="75">Mushroom</option>
+                      <option value="50">Pepper</option>
+                      <option value="50">Onions</option>
+                      <option value="100">Tikka Sauce</option>
+                      <option value="0">No Topping</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div class="input-group mb-3">
+                    <select class="form-select crust" id="crust" required>
+                      <option selected value="0" selected="selected" disabled="disabled">Choose crust style...</option>
+                      <option value="100">Thin Crust</option>
+                      <option value="150">Thick Crust</option>
+                      <option value="175">Crispy Crust</option>
+                      <option value="200">Stuffed Crust</option>
+                      <option value="0">No Crust</option>
+                    </select>
+                    <label class="input-group-text body-font" for="crust">Crust style</label>
+                  </div>
+                </div>
+              </form>
+              <div class="text-center">
+                <button class="btn btn-info proceed body-font" type="submit">Place Order</button>
+              </div>
+            </div>
+          </div>
+          <!-- end of second column -->
+        </div>
+        <!-- end of row -->
+        <!-- end of Pizza Orders subdivision -->
+
 
 
   </body>
