@@ -327,7 +327,29 @@
   <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
   <script src="assets/js/scripts.js" charset="utf-8"></script>
 
+  <!-- MailChimp php embed beloe -->
+  <script>
+  	$('form.sign-up').on('submit',function(e) {
 
+  		e.preventDefault();
+
+  		var formData = $(this).serialize();
+
+  		$.getJSON('assets/mailchimpPHP/MailChimp.php', formData ,function(data) {
+
+  			if(data.status === 'subscribed') {
+
+  				alert('Thanks!');
+  			} else {
+
+  				alert("oops error: " + data.detail);
+  			}
+  		});
+
+  	});
+  </script>
+  <!-- end of MailChimp php embed -->
 
   </body>
+  <!-- End of html body section -->
 </html>
