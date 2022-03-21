@@ -78,3 +78,17 @@ body {
   margin-right: 3.5%;
 }
 /* end of Pizza Orders division */
+
+/* Print Orders division */
+.print-orders {
+  color: white;
+  background-color: white;
+  opacity: 0.75;
+  padding-left: 0.5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.checkout-info {
+  color: black;
+}
+/* end of Print Orders division */
