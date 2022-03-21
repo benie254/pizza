@@ -167,3 +167,10 @@ footer p {
   dark-caption-color: black;
   dark-control-icon-filter: invert(1) grayscale(100);
 }
+/* Carousel Local Changes */
+.carousel-inner {
+  margin-left: 25%;
+}
+.carousel-item {
+  max-width: 100%;
+}
