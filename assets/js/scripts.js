@@ -11,7 +11,7 @@ $(document).ready(function() {
   $(".delivery-image").hide();
 
   // Assign variables for pizza Specifications & selections
-  $('.btn.proceed').click(function() {
+  $('.btn.place-order').click(function() {
     var pizzaFlavor = $(".flavor option:selected").val();
     var sizeOfPizza = $(".size option:selected").val();
     var toppingOfPizza = $(".topping option:selected").val();
@@ -26,7 +26,7 @@ $(document).ready(function() {
     $(".table h2").show();
     $(".delivery-image").show();
     $(".checkout-buttons").show();
-    $(".btn.proceed").hide();
+    $(".btn.place-order").hide();
 
     // Print the selected Pizza specifications and respective prices, including the totals
     $("#pizza-flavor").html($(".flavor option:selected").text() + pizzaFlavor);

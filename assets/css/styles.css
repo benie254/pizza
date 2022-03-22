@@ -9,17 +9,16 @@ body {
 
 /* Section 1 */
 .container-fluid-intro {
-  background-image: url(../img/backgrounds/bg1.jpg);
+  background-image: url(file:///home/benie/Downloads/pizza-4812083_1920.jpg);
   color: white;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  margin-bottom: 0;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 27%;
+  padding-right: 27%;
   padding-top: 1.5%;
-  padding-bottom: 50%;
+  padding-bottom: 15%;
 }
 
 /* Navbar division */
@@ -28,8 +27,9 @@ body {
   padding-bottom: 10px;
   opacity: 0.8;
   font-family: 'Courgette', cursive;
+  justify-content: flex-end;
 }
-#nav-buttons {
+.nav-buttons {
   padding-top: 5px;
 }
 .nav-text {
@@ -45,10 +45,12 @@ body {
 
 /* Welcome division */
 .welcome {
-  padding-top: 2%;
+  padding-top: 15%;
+  padding-bottom:;
 }
 .welcome h3 {
   font-family: 'Courgette', cursive;
+  color: white;
 }
 /* end of Welcome division */
 
@@ -116,6 +118,9 @@ body {
 .contact-row p {
   text-align: left;
 }
+.col-address h3, h4 {
+  text-align: left;
+}
 /* end of Contact division */
 
 /* Section 3 */
@@ -125,7 +130,9 @@ footer {
   text-align: center;
 }
 footer p {
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
+  color: #e3f2fd;
+  padding-top: 2.5%;
   margin-top: 0px;
   border-top-width: 0px;
   margin-bottom: 0px;
