@@ -133,6 +133,7 @@ footer p {
   font-family: 'Roboto', sans-serif;
   color: #e3f2fd;
   padding-top: 2.5%;
+  line-height: 0;
   margin-top: 0px;
   border-top-width: 0px;
   margin-bottom: 0px;
