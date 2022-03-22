@@ -10,7 +10,7 @@ A landing page for a Pizza website with a delivery option and the user functiona
 The website has plenty of design and interactive features. The landing page initializes with an attractive background. The order section is includes a carousel for interactivity and enables users to select their pizza preferences. On clicking "place-order", the user is directed to a checkout section, where they choose whether or not they want a delivery at an extra cost. The contact section includes a message area for a user's input if found necessary; it also includes contact and address information for the company. In the fourth column, is a Google maps embed, which directs users to the company location. Two small gifs are included in the contact section for interactivity.
 
 ## Screenshot
-<img src="https://user-images.githubusercontent.com/99865051/159402958-74c8c043-5f24-4b86-83ef-9ea83eae9722.png" >
+<img src="https://github.com/benie254/pizza/blob/bd021866d86f83943a0cc04f8e2f8f6f8086a36d/assets/img/screenshot.png" >
 
 ## Live Page 
 [PizzaMurai](https://benie254.github.io/pizza)
