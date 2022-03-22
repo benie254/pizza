@@ -35,11 +35,11 @@ No known bugs. Please report any issues or encountered bugs!
 * MailChimp PHP- contact & form data.
 
 ## Other Resources Used 
-* Logo made with Favicon. 
+* Logo made with [Favicon](https://favicon.io). 
 * Images are stock (stock photos are available on [Pexels](https://pexels.com), [Pixabay](https://pixabay.com), [Unsplash](https://unsplash.com), among more.)
 * Gif embeded from [Gifer](https://gifer.com)
 * Map embeded from [Google Maps](https://maps.google.com)
-* 
+
 ## Support and contact details
 Reach out with any issues, concerns, or contributions to Benie at davinci.monalissa@gmail.com
 
