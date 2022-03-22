@@ -9,7 +9,7 @@ body {
 
 /* Section 1 */
 .container-fluid-intro {
-  background-image: url(file:///home/benie/Downloads/pizza-4812083_1920.jpg);
+  background-image: url(../img/backgrounds/bg1.1.jpg);
   color: white;
   background-position: center center;
   background-size: cover;
@@ -123,8 +123,7 @@ body {
 }
 /* end of Contact division */
 
-/* Section 3 */
-/* Footer */
+/* Footer division */
 footer {
   padding-top: 30px;
   text-align: center;
@@ -138,7 +137,8 @@ footer p {
   border-top-width: 0px;
   margin-bottom: 0px;
 }
-/* end of Section 3 */
+/* end of Footer division */
+
 
 /* Carousel Local Changes */
 .carousel-inner {
