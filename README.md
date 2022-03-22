@@ -10,7 +10,7 @@ A landing page for a Pizza website with a delivery option and the user functiona
 The website has plenty of design and interactive features. The landing page initializes with an attractive background. The order section is includes a carousel for interactivity and enables users to select their pizza preferences. On clicking "place-order", the user is directed to a checkout section, where they choose whether or not they want a delivery at an extra cost. The contact section includes a message area for a user's input if found necessary; it also includes contact and address information for the company. In the fourth column, is a Google maps embed, which directs users to the company location. Two small gifs are included in the contact section for interactivity.
 
 ## Screenshot
-<img src=" https://github.com/benie254/pizza/blob/66d93ccbdca630ee684545e4e1307342fb3a68d7/assets/img/screenshot.png ">
+<img src=" https://raw.githubusercontent.com/benie254/pizza/master/assets/img/screenshot.png" width="900px" height="440px ">
 
 ## Live Page 
 [PizzaMurai](https://benie254.github.io/pizza)
@@ -18,8 +18,8 @@ The website has plenty of design and interactive features. The landing page init
 ## Setup/Installation Requirements
 * To use this open-source repo, clone or fork it. 
 * Open your Terminal (CTRL + ALT + T on Ubuntu/Linux). 
-* Make a destination directory in your preferred path (where you would like to clone the repo into."
-* Run the command ``` cd [your destination directory here, without the square brackets].
+* Make a destination directory in your preferred path (where you would like to clone the repo into.)
+* Run the command ``` cd [your destination directory here, without the square brackets]. ```
 * Run the command ``` git clone https://github.com/benie254/pizza.git ``` to clone the repo into your destination directory. 
 * Run the command ``` cd pizza ``` which should move you from your current directory to this repo's directory.
 * Run the command ``` atom . ``` or ``` code . ``` depending on your preffered editor (it is okay if you use something different.)
